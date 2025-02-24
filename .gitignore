@@ -1,0 +1,67 @@
+#virtual environment
+venv/
+env/
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+.Python
+python3
+*.py[cod]
+*.so
+*.log
+*.db
+*.sqlite3
+*.sqlite
+
+#ignore environment variables & secrets
+.env
+.env.local
+.env.production
+.env.development
+config.json
+
+#ignore IDE & Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+
+#ignore Logs & Debug Files
+logs/
+*.log
+*.out
+*.err
+nohup.out
+
+#ignore Compiled / Bytecode Files
+*.class
+*.o
+*.obj
+*.exe
+*.dll
+
+#ignore Data Files
+data/
+*.csv
+*.tsv
+*.parquet
+*.json
+*.xml
+
+#ignore Testing & Coverage Files
+.coverage
+htmlcov/
+pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+.tox/
+junit.xml
+
+
+#ignore MongoDB Data (if using local MongoDB)
+dump/
+*.bson
+mongod.lock
